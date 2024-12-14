@@ -1,0 +1,149 @@
+j*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f0bac9;
+}
+
+.cabecalho{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e28db1;
+    box-shadow: 0 4px 17px white;
+    position: fixed; 
+}
+
+.logo{
+    width: 70px;
+}
+.navBar{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.navItem{
+    font-size: 18px;
+    color: white;
+}
+.navItem:hover{
+    cursor: pointer;
+    color: #f0bac9;
+    transition: 0.3s;
+}
+
+.inicio{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+height: 100vh;
+}
+.minhaImagem{
+    height: 460px;
+    border-radius: 50%;
+    width: 460px;
+}
+.resumo{
+    color: white;
+}
+
+.resumo h3{
+font-size: 30px;
+}
+.resumo h1{
+    font-size: 36px;
+}
+.resumo span{
+    color:hotpink
+}
+.resumo p{
+    font-size: 18px;
+}
+.redeSocial{
+    text-decoration: none;
+    color: hotpink;
+    border: solid 1px white;
+    padding: 3px 5px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+}
+.sobreMim{
+    width: 100%;
+    padding: 30px;
+}
+
+.sobreMim h1{
+    font-size: 64px;
+    color: hotpink;
+    border-bottom: solid 1px white;
+    width: 40%;
+}
+.meuTexto{
+    color: white;
+}
+
+.hobbies{
+    text-align: center;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 20px;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+}
+.hobbies h1{
+    font-size:56px;
+    font-weight: 700;
+    color: hotpink;
+    font-family: serif;
+}
+
+.hobbies-card{
+    height: 200px;
+    background-color: #e28db1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.5s;
+}
+.hobbies-card img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.hobbies-card:hover{
+    background-color: #ffc8d7;
+    font-size: 24px;
+    font-weight: 400;
+    color: hotpink;
+}
+
+
+
+footer{
+    background-color:#e28db1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    margin: 0;
+}
